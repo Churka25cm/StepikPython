@@ -1,7 +1,12 @@
 list_players = ["Маша", "Петя", "Саша", "Оля", "Кирилл", "Коля"]
 
-team1 = list_players[0:3]
-team2 = list_players[3:6]
+middle = len(list_players) // 2
+
+first_team = list_players[:middle]
+second_team = list_players[middle:]
+
+team1 = list_players[:middle]
+team2 = list_players[middle:]
 
 # TODO Разделите участников на две команды
 
