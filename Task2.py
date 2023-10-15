@@ -14,4 +14,3 @@ volume_book = information_volume / book_in_Mb
 volume_book = int(volume_book)
 
 print("Количество книг, помещающихся на дискету:", volume_book)
-
